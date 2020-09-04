@@ -1,9 +1,66 @@
 body{
-	font-family: serif;
+	font-family: 'Norican', cursive;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 80%;
 }
 header{
-	background-color: #00796B;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	background-color: #00BFA5;
+	text-align: center;
+	height: 5em;
+	color: yellow;
+
 }
 .footer{
-	background-color: #00796B;
+	background-color: #00BFA5;
+	display: flex;
+	justify-content: space-between;
+	color: yellow;
+}
+#menu{
+	display: flex;
+	flex-flow: row wrap ;
+	padding-left: 2em;
+	/*width: 25%;
+	height: 400px;*/
+}
+#menu{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+	
+}
+#menu1{
+	font-family: 'Norican', cursive;
+	border: 0.25em solid #F5F5F5;
+	background-color: #FFCCBC;
+}
+.fa-music{
+	color: orange;
+	font-size: 2em;
+}
+#menu2{
+	font-family: 'Norican', cursive;
+	border: 0.25em solid #F5F5F5;
+	background-color: #ffebee;
+}
+#menu3{
+	font-family: 'Norican', cursive;
+	border: 0.25em solid #F5F5F5;
+	background-color: #EEEEEE;
+}
+#menu4{
+	font-family: 'Norican', cursive;
+	border: 0.25em solid #F5F5F5;
+	background-color: #fff;
+}
+#next{
+	background-color: #00897B;
+	border-radius: 5px;
+	margin-bottom: 5em;
 }
