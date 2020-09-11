@@ -1,26 +1,3 @@
-header{
-	display: flex;
-	width: 100%;
-	justify-content: center;
-	background-color: #00BFA5;
-	text-align: center;
-	height: 5em;
-	color: yellow;
-	margin-bottom: 4em;
-}
-main{
-	background-color: #FFCCBC;
-	padding-left: 4em;
-}
-h2{
-	align-items: center;
-}
-
-
-footer{
-	background-color: #00BFA5;
-	display: flex;
-	justify-content: space-between;
-	color: yellow;
-	margin-top: 4em;
+body{
+	font-family: 'Kaushan Script', sans serif;
 }
