@@ -124,7 +124,13 @@ footer{
 }
 .menu__2{
 	background-color: #ffebee;
-	width: 60%;
+	justify-content: center;
+	/*width: 60%;*/
+	padding: 5em;
+	
+}
+#menu__title2{
+	padding-bottom: 3em;
 }
 .menu__3{
 	background-color: #EEEEEE;
@@ -136,7 +142,7 @@ footer{
 }
 .menu__prix{
 	text-align: right;
-	padding-right: 2em;
+	/*padding-right: 2em;*/
 }
 .menu__repas{
 	display: flex;
