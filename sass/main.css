@@ -3,6 +3,7 @@ body{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	width: 50%;
 }
 header{
 	font-family: 'Norican', cursive;
@@ -44,6 +45,7 @@ footer{
 	flex-flow: row wrap;
 	justify-content: space-between;
 	align-items: center;
+	width: 100%;
 	
 }
 #menu__menu{
@@ -62,7 +64,8 @@ footer{
 	align-items: center;
 	box-shadow: 0em 0em 0em 0.15em grey;
 	background-color: #FFCCBC;
-	height: 500px;
+	width: 90%;
+	height: 300px;
 	margin-bottom: 2em;
 	
 }
@@ -76,6 +79,7 @@ footer{
 	text-align: center;
 	align-items: center;
 	box-shadow: 0em 0em 0em 0.15em grey;
+	width: 90%;
 	height: 300px;
 	margin-bottom: 2em;
 	border: 0.25em solid #F5F5F5;
@@ -103,14 +107,18 @@ footer{
 	border: 0.25em solid #F5F5F5;
 	background-color: #fff;
 }
-#next{
+#menu__next{
+	display: flex;
 	justify-content: center;
 	align-items: center;
 	background-color: #00897B;
-	padding-left: 1em;
-	border-radius: 5px;
-	margin-bottom: 5em;
+	border-radius: 8px;
+	width: 100%;
 }
+a:visited{
+	text-decoration: none;
+}
+
 /*les menus*/
 .menu__entree, .menu__plat, .menu__dessert{
 	padding-bottom: 2em;
@@ -179,3 +187,20 @@ footer{
 	display: flex;
 	justify-content: space-between;
 }
+@media screen and (max-width: 991.98px){
+	body{
+		display: flex;
+		flex-flow: column wrap;
+		width: 100%;
+		margin: 0;
+	}
+	#menu__menu{
+		display: flex;
+		flex-direction: column;
+		width: 80%;
+	}
+	footer{
+		display: flex;
+		flex-direction: column;
+		height: auto;
+	}
