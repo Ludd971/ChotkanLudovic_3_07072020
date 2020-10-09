@@ -3,7 +3,11 @@ body{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 50%;
+}
+#container{
+	justify-content: center;
+	max-width: 1200px;
+	align-items: center;
 }
 header{
 	font-family: 'Norican', cursive;
@@ -15,7 +19,7 @@ header{
 	align-items: center;
 	height: 4em;
 	color: yellow;
-	margin-bottom: 4em;
+	margin-bottom: 1.5em;
 	font-size: 1.5em;
 }
 h1, h2, h3{
@@ -32,7 +36,7 @@ footer{
 	display: flex;
 	justify-content: space-between;
 	color: yellow;
-	margin-top: 4em;
+	margin-top: 1.5em;
 }
 .bot{
 	display: flex;
@@ -43,31 +47,30 @@ footer{
 #menu{
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-between;
-	align-items: center;
-	width: 100%;
-	
+	justify-content: space-around;
+
 }
 #menu__menu{
 	margin-bottom: 15px;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 	width: 80%;
 	align-items: center;
 	text-align: center;
-	padding: 1em  1em 1em 1em;
+	font-size: 10px;
 }
 #menu__1{
 	display: flex;
-	text-align: center;
 	align-items: center;
-	box-shadow: 0em 0em 0em 0.15em grey;
+	box-shadow: 0em 0em 0em 0.15em #E0E0E0;
 	background-color: #FFCCBC;
-	width: 90%;
+	width: 200px;
 	height: 300px;
-	margin-bottom: 2em;
-	
+	margin-bottom: 1em;
+}
+#menu__menu1a, #menu__menu2a, #menu__menu3a, #menu__menu4a{
+	text-transform: uppercase;
 }
 .fa-music{
 	justify-content: center;
@@ -76,34 +79,30 @@ footer{
 }
 #menu__2{
 	display: flex;
-	text-align: center;
 	align-items: center;
-	box-shadow: 0em 0em 0em 0.15em grey;
-	width: 90%;
+	box-shadow: 0em 0em 0em 0.15em #E0E0E0;
 	height: 300px;
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 	border: 0.25em solid #F5F5F5;
 	background-color: #ffebee;
 }
 #menu__3{	
 	display: flex;
-	text-align: center;
 	align-items: center;
-	box-shadow: 0em 0em 0em 0.15em grey;
+	box-shadow: 0em 0em 0em 0.15em #E0E0E0;
 	height: 300px;
-	margin-top: 2em;
-	margin-bottom: 2em;
+	margin-top: 1em;
+	margin-bottom: 1em;
 	border: 0.25em solid #F5F5F5;
 	background-color: #EEEEEE;
 }
 #menu__4{
 	display: flex;
-	text-align: center;
 	align-items: center;
-	box-shadow: 0em 0em 0em 0.15em grey;
+	box-shadow: 0em 0em 0em 0.15em #E0E0E0;
 	height: 300px;
-	margin-top: 2em;
-	margin-bottom: 2em;
+	margin-top: 1em;
+	margin-bottom: 1em;
 	border: 0.25em solid #F5F5F5;
 	background-color: #fff;
 }
@@ -113,10 +112,10 @@ footer{
 	align-items: center;
 	background-color: #00897B;
 	border-radius: 8px;
-	width: 100%;
+	width: 40%;
 }
 a:visited{
-	text-decoration: none;
+	color: inherit;
 }
 
 /*les menus*/
@@ -163,6 +162,7 @@ a:visited{
 	justify-content: center;
 	padding: 5em;
 	justify-content: space-between;
+
 }
 #menu__title3{
 	font-size: 45px;
@@ -193,6 +193,9 @@ a:visited{
 		flex-flow: column wrap;
 		width: 100%;
 		margin: 0;
+	}
+	#contener{
+		justify-content: center;
 	}
 	#menu__menu{
 		display: flex;
