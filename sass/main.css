@@ -25,7 +25,16 @@ header{
 h1, h2, h3{
 	text-align: center;
 }
-
+h3{
+	font-weight: bold;
+	color: inherit;
+	background: linear-gradient(to top, rgba(255,0,0,0.8) 0%, rgba(255,0,0,0.8) 3px, transparent 4px) no-repeat;
+	background-size: 0 100%;
+	transition: background-size 0.3s;
+}
+h3:hover{
+	background-size: 100% 100%;
+}
 footer{
 	font-family: 'Norican', cursive;
 	width: 100%;
@@ -36,6 +45,7 @@ footer{
 	color: yellow;
 	margin-top: 1.5em;
 }
+
 .bot{
 	display: flex;
 	align-items: center;
